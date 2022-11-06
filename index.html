@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Dynamic Form</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <u><i>Dynamic Form</i></u>
+            <div class="containerFormTypes" id="containerFormTypes">
+                
+            </div>
+        </div>
+        
+        <div class="containerButtons">
+            <i>select the type of input method for the form :- </i>
+            <br>
+            <br>
+            <br>
+            <button type="button" class="btn btn-primary addText" onclick="addText()">Text</button>
+            <button type="button" class="btn btn-secondary addRadio" onclick="addRadio()">Radio</button>
+            <button type="button" class="btn btn-success addPassword" onclick="addPassword()">Password</button>
+            <button type="button" class="btn btn-danger addEmail" onclick="addEmail()">Email</button>
+            <button type="button" class="btn btn-warning addColor" onclick="addColor()">Color</button>
+            <button type="button" class="btn btn-info addNumber" onclick="addNumber()">Phone number</button>
+
+        </div>
+    </form>
+
+   
+    <script src="index.js"></script>
+</body>
+</html>
+

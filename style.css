@@ -1,0 +1,22 @@
+.containerButtons{
+    position: absolute;
+    right: 50px;
+    
+}
+.containerFormTypes{
+    position: relative;
+    left: 9vh;
+    width: 540px;
+    border: 3px solid grey;
+}
+
+input{
+   padding: 11px;
+}
+
+.display{
+    position: relative;
+    left: 9vh;
+    width: 540px;
+    border: 3px solid grey;
+}
